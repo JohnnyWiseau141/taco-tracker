@@ -1,11 +1,11 @@
 import { Router } from 'express'
 const router = Router()
 
-/* GET home page. */
+/* GET users listing. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Express' })
+  res.redirect('/tacos')
 })
 
-export { 
+export {
   router
 }
